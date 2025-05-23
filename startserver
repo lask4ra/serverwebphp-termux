@@ -1,0 +1,6 @@
+#!/system/bin/sh
+apachectl start
+mysqld start
+echo "
+SERVER RUNNING"
+termux-open-url http://localhost:8080/

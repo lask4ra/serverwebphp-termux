@@ -1,0 +1,5 @@
+#!/system/bin/sh
+apachectl stop
+mysqld stop
+echo "
+SERVER STOP"

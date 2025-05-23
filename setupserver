@@ -1,0 +1,15 @@
+#!/system/bin/sh
+rm $PREFIX/etc/apache2/httpd.conf
+rm $PREFIX/etc/apache2/conf.d/phpmyadmin.conf
+rm $PREFIX/etc/phpmyadmin/config.inc.php
+
+mv config.inc.php $PREFIX/etc/phpmyadmin
+mv httpd.conf $PREFIX/etc/apache2/httpd.conf
+mv phpmyadmin.conf $PREFIX/etc/apache2/conf.d
+mv startserver $PREFIX/bin
+mv stopserver $PREFIX/bin
+mv mysqld $PREFIX/bin
+
+echo "Silahkan untuk menjalankan server
+ketik startserver dan untuk
+berhenti gunakan stopserver"

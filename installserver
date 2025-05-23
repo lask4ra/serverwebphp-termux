@@ -1,0 +1,7 @@
+#!/system/bin/sh
+pkg install composer phpmyadmin php-apache mariadb -y
+echo "Berhasil di install :)"
+echo "
+
+By : Adi Dahlan
+Github : lask4ra
