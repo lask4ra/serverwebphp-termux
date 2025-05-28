@@ -1,7 +1,7 @@
 <h1>Serverweb termux APACHE, PHP, MYSQL, COMPOSER dan PHPmyadmin.</h1>
 
 **Pertama** : <br>
-install git terlebih dahulu dengan command
+Pastikan termux 64bit sudah terinstall di perangkatmu. Lalu buka termux dan install git terlebih dahulu dengan command
 ```text
 pkg install git
 ```
